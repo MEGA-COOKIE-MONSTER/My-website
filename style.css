@@ -2,6 +2,8 @@
 
 .game img{
     width: 250px;
+    height: 250px;
+    border-radius: 10%;
 }
 body{
     text-align: center;
@@ -83,6 +85,8 @@ a:visited{
 
 .game:hover img{
    opacity: 0.3;
+   width: 270px;
+   height: 270px;
 }
 
 .links{

@@ -9,7 +9,6 @@ body{
     color: #80ED99;
     margin: 0;
   
-    text-align: center;
 }
 
 .profile {
@@ -24,7 +23,24 @@ a:link{
 a:visited{
     color:#80ED99;
 }
-    
+
+.biggybodytexty{
+    margin-left: 100;
+    margin-right: 100;
+    margin-bottom: 20;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    color:#DCE1DE;
+    font-family: 'Teko', sans-serif;
+    text-align: justify;
+}
+
+.intro{
+    font-family: "Teko";
+    font-size: 80px;
+}
+
 .header{
     
     display: flex;
@@ -48,16 +64,15 @@ a:visited{
 }
 
 #name{
-    margin-bottom: auto;
+    margin-bottom: 15px;
+    margin-top: 50px;
     text-shadow:  15px 10px 8px black;
     font-size: 300px;
     font-family: 'Teko', cursive;
     opacity: 0.7;
+    z-index: 14;
 }
 
-.menu a{
-    margin-right: 30px;
-}
 
 .game {
     margin: 15px;
@@ -68,4 +83,37 @@ a:visited{
 
 .game:hover img{
    opacity: 0.3;
+}
+
+.links{
+    display: inline;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.menu{
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    height: 100px;
+    font-size: 40px;
+    font-family: "Teko";
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    position: fixed;
+    top:0px;
+    margin-top: 0px;
+    z-index: 10;
+    
+}
+
+a{
+    text-decoration: none !important;
+}
+
+iframe{
+    width: 90%;
+    border-radius: 20px;
+    margin-bottom: 30px;
 }
